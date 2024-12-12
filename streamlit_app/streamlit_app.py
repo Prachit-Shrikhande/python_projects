@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 
 about_page = st.Page(
     page="views/about_me.py",

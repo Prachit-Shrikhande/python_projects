@@ -7,7 +7,6 @@ def show_contact_form():
     contact_form()
     
 
-
 col1, col2 = st.columns(2 , gap="small", vertical_alignment="center")
 
 with col1:
