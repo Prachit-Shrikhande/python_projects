@@ -40,5 +40,7 @@ EXPOSE 8088
 WORKDIR /app/
 
 # Specify the command to run on container start
-CMD ["/app/venv/bin/streamlit", "run", "streamlit_app.py", "--server.port=8088", "--server.enableCORS=false"]
+# CMD ["/app/venv/bin/streamlit", "run", "streamlit_app.py", "--server.port=8088", "--server.enableCORS=false"]
+CMD ["/app/venv/bin/streamlit", "run", "streamlit_app.py", "--server.port=8088", "server.address=127.0.0.1"]
+
 
